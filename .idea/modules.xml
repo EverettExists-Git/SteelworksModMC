@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quantum.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quantum.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quantum.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quantum.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/steelworks.main.iml" filepath="$PROJECT_DIR$/.idea/modules/steelworks.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/steelworks.test.iml" filepath="$PROJECT_DIR$/.idea/modules/steelworks.test.iml" />
     </modules>
   </component>
 </project>

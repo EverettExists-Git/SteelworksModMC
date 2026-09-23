@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import java.util.function.Function;
@@ -24,9 +23,9 @@ public class ModItems {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
                 .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_FRAGMENT));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
-                .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_ORE));
+                .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_RAW));
     }
 
     public static final Item TUNGSTEN_FRAGMENT = register(ModItemIds.TUNGSTEN_FRAGMENT, Item::new, new Item.Properties());
-    public static final Item TUNGSTEN_ORE = register(ModItemIds.TUNGSTEN_ORE, Item::new, new Item.Properties());
+    public static final Item TUNGSTEN_RAW = register(ModItemIds.TUNGSTEN_RAW, Item::new, new Item.Properties());
 }

@@ -16,6 +16,6 @@
   * tungsten_fragment
   * tungsten_ore
 * Updated lang file
-  *   "item.quantum.tungsten_fragment": "Tungsten Fragment",
-  *   "item.quantum.tungsten_ore": "Tungsten Ore"
+  *   "item.steelworks.tungsten_fragment": "Tungsten Fragment",
+  *   "item.steelworks.tungsten_ore": "Tungsten Ore"
 
