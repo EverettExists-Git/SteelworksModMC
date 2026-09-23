@@ -3,9 +3,9 @@
 	"id": "quantum",
 	"version": "${version}",
 	"name": "Quantum",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Mod Created By A1IsTheSpirit and EverettExists",
 	"authors": [
-		"Me!"
+		"A1IsTheSpirit, EverettExists"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
