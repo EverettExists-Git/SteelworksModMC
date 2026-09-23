@@ -9,5 +9,8 @@ public class ModItemIds {
     public static ResourceKey<Item> create(String name) {
         // Create Item Key
         return ResourceKey.create(Registries.ITEM, Quantum.id(name));
+
     }
+    public static final ResourceKey<Item> TUNGSTEN_FRAGMENT = create("tungsten_fragment");
+    public static final ResourceKey<Item> TUNGSTEN_ORE = create("tungsten_ore");
 }
