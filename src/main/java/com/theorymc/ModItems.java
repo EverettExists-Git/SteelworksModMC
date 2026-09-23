@@ -24,8 +24,11 @@ public class ModItems {
                 .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_FRAGMENT));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
                 .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_RAW));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
+                .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_INGOT));
     }
 
     public static final Item TUNGSTEN_FRAGMENT = register(ModItemIds.TUNGSTEN_FRAGMENT, Item::new, new Item.Properties());
     public static final Item TUNGSTEN_RAW = register(ModItemIds.TUNGSTEN_RAW, Item::new, new Item.Properties());
+    public static final Item TUNGSTEN_INGOT = register(ModItemIds.TUNGSTEN_INGOT, Item::new, new Item.Properties());
 }

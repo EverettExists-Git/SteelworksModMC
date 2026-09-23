@@ -13,4 +13,5 @@ public class ModItemIds {
     }
     public static final ResourceKey<Item> TUNGSTEN_FRAGMENT = create("tungsten_fragment");
     public static final ResourceKey<Item> TUNGSTEN_RAW = create("tungsten_raw");
+    public static final ResourceKey<Item> TUNGSTEN_INGOT = create("tungsten_ingot");
 }
