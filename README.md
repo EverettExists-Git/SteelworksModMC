@@ -1,4 +1,4 @@
-# Quantum
+# Steelworks Mod MC
 
 ## Setup
 
