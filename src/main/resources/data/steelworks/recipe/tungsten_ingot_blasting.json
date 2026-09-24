@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 2.1,
+  "cookingtime": 400,
+  "ingredient": "steelworks:tungsten_raw",
+  "result": {
+    "id": "steelworks:tungsten_ingot"
+  }
+}

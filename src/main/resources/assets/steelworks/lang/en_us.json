@@ -1,5 +1,7 @@
 {
   "item.steelworks.tungsten_fragment": "Wolframite Fragment",
   "item.steelworks.tungsten_raw": "Raw Wolframite",
-  "item.steelworks.tungsten_ingot": "Tungston Ingot"
+  "item.steelworks.tungsten_ingot": "Tungsten Ingot",
+  "item.steelworks.tungsten_pickaxe": "Tungsten Pickaxe",
+  "item.steelworks.tungsten_sword": "Tungsten Sword"
 }
