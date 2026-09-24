@@ -1,6 +1,6 @@
 # LINKS
 
-https://modrinth.com/organization/theorymc
+https://modrinth.com/project/steelworks
 
 https://steelworksmc.straw.page
 
