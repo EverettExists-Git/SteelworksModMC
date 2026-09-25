@@ -11,10 +11,11 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
 
+
 import java.util.function.Function;
 
 public class ModItems {
-    public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings){
+    public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
         // Create Item Instance
         Item item = itemFactory.apply(settings.setId(itemKey));
 
@@ -24,6 +25,7 @@ public class ModItems {
         return item;
         // Easier than Neoforge?
     }
+
     public static void initialize() {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
                 .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_FRAGMENT));
@@ -35,6 +37,8 @@ public class ModItems {
                 .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_PICKAXE));
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT)
                 .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_SWORD));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
+                .register((creativeTab) -> creativeTab.accept(ModItems.TUNGSTEN_AXE));
     }
 
     public static final TagKey<Item> REPAIRS_TUNGSTEN_ARMOR = TagKey.create(BuiltInRegistries.ITEM.key(), Steelworks.id("repairs_tungsten_armor"));
@@ -59,11 +63,16 @@ public class ModItems {
     public static final Item TUNGSTEN_PICKAXE = register(
             ModItemIds.TUNGSTEN_PICKAXE,
             Item::new,
-            new Item.Properties().pickaxe(TUNGSTEN_TOOL_MATERIAL, 6f, 1f)
+            new Item.Properties().pickaxe(TUNGSTEN_TOOL_MATERIAL, 3f, -3f)
     );
     public static final Item TUNGSTEN_SWORD = register(
             ModItemIds.TUNGSTEN_SWORD,
             Item::new,
-            new Item.Properties().sword(TUNGSTEN_TOOL_MATERIAL, 7f, 1.6f)
+            new Item.Properties().sword(TUNGSTEN_TOOL_MATERIAL, 5.0f, -2.6f)
+    );
+    public static final Item TUNGSTEN_AXE = register(
+            ModItemIds.TUNGSTEN_AXE,
+            Item::new,
+            new Item.Properties().axe(TUNGSTEN_TOOL_MATERIAL, 7f, -3.2f)
     );
 }

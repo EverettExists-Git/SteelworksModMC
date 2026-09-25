@@ -21,4 +21,5 @@ public class ModItemIds {
     // Tool
     public static final ResourceKey<Item> TUNGSTEN_PICKAXE = create("tungsten_pickaxe");
     public static final ResourceKey<Item> TUNGSTEN_SWORD = create("tungsten_sword");
+    public static final ResourceKey<Item> TUNGSTEN_AXE = create("tungsten_axe");
 }
