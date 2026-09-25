@@ -4,6 +4,11 @@
   "item.steelworks.tungsten_ingot": "Tungsten Ingot",
   "item.steelworks.tungsten_pickaxe": "Tungsten Pickaxe",
   "item.steelworks.tungsten_sword": "Tungsten Sword",
-  "item.steelworks.tungsten_axe": "Tungsten Axe"
-
+  "item.steelworks.tungsten_axe": "Tungsten Axe",
+  "item.steelworks.tungsten_shovel": "Tungsten Shovel",
+  "item.steelworks.tungsten_hoe": "Tungsten Hoe",
+  "item.steelworks.tungsten_helmet": "Tungsten Helmet",
+  "item.steelworks.tungsten_chestplate": "Tungsten Chestplate",
+  "item.steelworks.tungsten_leggings": "Tungsten Leggings",
+  "item.steelworks.tungsten_boots": "Tungsten Boots"
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "steelworks:tungsten_chestplate",
+    "steelworks:tungsten_helmet",
+    "steelworks:tungsten_leggings",
+    "steelworks:tungsten_boots"
+  ]
+}

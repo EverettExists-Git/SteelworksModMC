@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "steelworks:tungsten"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "steelworks:tungsten"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "steelworks:tungsten"
+      }
+    ]
+  }
+}

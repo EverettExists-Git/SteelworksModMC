@@ -22,4 +22,12 @@ public class ModItemIds {
     public static final ResourceKey<Item> TUNGSTEN_PICKAXE = create("tungsten_pickaxe");
     public static final ResourceKey<Item> TUNGSTEN_SWORD = create("tungsten_sword");
     public static final ResourceKey<Item> TUNGSTEN_AXE = create("tungsten_axe");
+    public static final ResourceKey<Item> TUNGSTEN_SHOVEL = create("tungsten_shovel");
+    public static final ResourceKey<Item> TUNGSTEN_HOE = create("tungsten_hoe");
+
+    // Armor
+    static final ResourceKey<Item> TUNGSTEN_HELMET = create("tungsten_helmet");
+    static final ResourceKey<Item> TUNGSTEN_CHESTPLATE = create("tungsten_chestplate");
+    static final ResourceKey<Item> TUNGSTEN_LEGGINGS = create("tungsten_leggings");
+    static final ResourceKey<Item> TUNGSTEN_BOOTS = create("tungsten_boots");
 }

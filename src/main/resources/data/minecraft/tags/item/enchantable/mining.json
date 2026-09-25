@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "steelworks:tungsten_axe",
+    "steelworks:tungsten_hoe",
+    "steelworks:tungsten_shovel",
+    "steelworks:tungsten_pickaxe"
+  ]
+}
